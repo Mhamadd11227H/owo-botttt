@@ -436,7 +436,7 @@ client.on("message", async message => {
       .send({
         embed: {
           description: `Gif Animel`,
-          color: `#ffff00`,
+          color: `#0040ff`,
           image: {
             url: aaaa[Math.floor(Math.random() * aaaa.length)]
           }
@@ -491,7 +491,7 @@ client.on("message", async message => {
       .send({
         embed: {
           description: `Gif Anime`,
-          color: `#ffff00`,
+          color: `#0040ff`,
           image: {
             url: anime[Math.floor(Math.random() * anime.length)]
           }
@@ -538,7 +538,7 @@ client.on("message", async message => {
       .send({
         embed: {
           description: `Gif Baby`,
-          color: `#ffff00`,
+          color: `#40ff00`,
           image: {
             url: baby[Math.floor(Math.random() * baby.length)]
           }
@@ -580,7 +580,7 @@ client.on("message", async message => {
       .send({
         embed: {
           description: `Gif Boy`,
-          color: `#ffff00`,
+          color: `#ff0000`,
           image: {
             url: yyyy[Math.floor(Math.random() * yyyy.length)]
           }
@@ -626,7 +626,7 @@ client.on("message", async message => {
       .send({
         embed: {
           description: `Gif Couple`,
-          color: `#ffff00`,
+          color: `	#00ffff`,
           image: {
             url: coulpe[Math.floor(Math.random() * coulpe.length)]
           }
@@ -694,7 +694,7 @@ client.on("message", async message => {
       .send({
         embed: {
           description: `Gif Girl`,
-          color: `#ffff00`,
+          color: `	#ff00ff`,
           image: {
             url: girl[Math.floor(Math.random() * girl.length)]
           }
