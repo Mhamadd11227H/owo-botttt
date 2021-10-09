@@ -61,7 +61,7 @@ client.on("message", message => {
 });
 //===============================================================================\\
 client.on("guildCreate", guild => {
-  client.channels.cache.get("870341021186265188").send(`
+  client.channels.cache.get("893401775795761162").send(`
 ✅ **Join Server**: ${client.guilds.cache.size}
 🔠 **Server Name**: ${guild.name}
 👑 **Server Owner**: ${guild.owner}
@@ -70,7 +70,7 @@ client.on("guildCreate", guild => {
 });
 ////////////////////////////////////////////
 client.on("guildDelete", guild => {
-  client.channels.cache.get("870341021186265188").send(`
+  client.channels.cache.get("893401775795761168").send(`
 ❎ **Lift Server**: ${client.guilds.cache.size}
 🔠 **Server Name**: ${guild.name}
 👑 **Server Owner**: ${guild.owner}
@@ -153,14 +153,14 @@ client.on("message", russi => {
         `${russi.guild.createdAt.toLocaleString()}`
       )
       .addField(
-        "> <:emoji_87:870361195272630293> Members : ",
+        "> <:👤:> Members : ",
         `${russi.guild.memberCount}`
       )
       .addField(
-        "> <:emoji_80:870361373895454800> Channels : ",
+        "> <:📕:> Channels : ",
         `${russi.guild.channels.cache.size}`
       )
-      .addField("> <a:emoji_17:875044896619266049> Region : ", `${russi.guild.region}`)
+      .addField("> <a:🌍:> Region : ", `${russi.guild.region}`)
       .setTimestamp(); ///Russi
     russi.channel.send(embed);
   }
@@ -220,15 +220,15 @@ client.on("message", message => {
   if (message.content === ">bot") {
     const embed = new Discord.MessageEmbed().setColor("#ffff00")
       .setDescription(`
-> <a:📊:> | Server
+> <:📊:> | Server
 ${client.guilds.cache.size}
-> <a:📕:> | Channel
+> <:📕:> | Channel
 ${client.channels.cache.size}
-> <a:👤:> | User
+> <:👤:> | User
 ${client.guilds.cache.reduce((a, g) => a + g.memberCount, 0)}
-> <a:👸:> | Owner Bot 
+> <:👸:> | Owner Bot 
 <@701546840063082601>
-> <a:📍:> | Prefix Bot
+> <:📍:> | Prefix Bot
 >`);
     message.channel.send(embed);
   }
