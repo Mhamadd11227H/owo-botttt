@@ -9,11 +9,11 @@ exports.run = async (client, message, args) => {
 //== BEERCODE (https://discord.gg/ew3dpTu4Z5) BEERCODE ==\\
   var toplam= cüzdan+banka
 message.channel.send(new Discord.MessageEmbed()
-                  .setColor("YELLOW")
+                  .setColor("RED")
                   .setFooter('Kraken Balance Info!')
                   .setThumbnail('https://media.discordapp.net/attachments/852987040659931248/871313810441510922/image0.gif')
                   .setAuthor(user.tag, user.avatarURL({dynamic: true}))     
-                  .addField(`Kraken Cash <a:💰:874712610396844135> `,`__${toplam ? toplam +'':`0`}__`,true))
+                  .addField(`Kraken Cash <a:💰874712610396844135> `,`__${toplam ? toplam +'':`0`}__`,true))
                     
   }
 
