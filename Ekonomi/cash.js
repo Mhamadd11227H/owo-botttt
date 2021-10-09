@@ -10,7 +10,7 @@ exports.run = async (client, message, args) => {
   var toplam= cüzdan+banka
 message.channel.send(new Discord.MessageEmbed()
                   .setColor("RED")
-                  .setFooter('Kraken Balance Info!')
+                  .setFooter('Coin!')
                   .setThumbnail('https://media.discordapp.net/attachments/852987040659931248/871313810441510922/image0.gif')
                   .setAuthor(user.tag, user.avatarURL({dynamic: true}))     
                   .addField(`Currently have 💰 `,` 🪙 __${toplam ? toplam +'':`0`}__`,true))
