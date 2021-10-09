@@ -220,15 +220,15 @@ client.on("message", message => {
   if (message.content === ">bot") {
     const embed = new Discord.MessageEmbed().setColor("#ffff00")
       .setDescription(`
-> <a:emoji_21:872142528042917980> | Server
+> <a:📊:> | Server
 ${client.guilds.cache.size}
-> <a:emoji_21:872142528042917980> | Channel
+> <a:📕:> | Channel
 ${client.channels.cache.size}
-> <a:emoji_21:872142528042917980> | User
+> <a:👤:> | User
 ${client.guilds.cache.reduce((a, g) => a + g.memberCount, 0)}
-> <a:emoji_21:872142528042917980> | Owner Bot 
+> <a:👸:> | Owner Bot 
 <@701546840063082601>
-> <a:emoji_21:872142528042917980> | Prefix Bot
+> <a:📍:> | Prefix Bot
 >`);
     message.channel.send(embed);
   }
@@ -284,7 +284,7 @@ client.on("message", async message => {
 <a:emoji_21:872142528042917980> | Kraken Prefix (>)
 
       
-<a:emoji_21:872142528042917980> | Kraken [Support](https://discord.gg/DxytuacsyS)
+<a:emoji_21:872142528042917980> | Kraken [Support](https://discord.gg/MBdNZH3FsJ)
 
 <a:emoji_21:872142528042917980> | Krakem [Invite](https://discord.com/api/oauth2/authorize?client_id=807350534901071932&permissions=8&scope=bot)
 
