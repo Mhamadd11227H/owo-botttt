@@ -113,7 +113,7 @@ client.on("message", message => {
 
 
 **<a:🟣:┇Link**
-[Support Bot](https://discord.gg/progresshome) - [Invite Kraken 🐙 Bot](https://discord.com/api/oauth2/authorize?client_id=807350534901071932&permissions=8&scope=bot) - [YouTube](coming soon) - [Website](coming soon)
+[Support Bot](https://discord.gg/MBdNZH3FsJ) - [Invite Coin bot 🐙 Bot](https://discord.com/api/oauth2/authorize?client_id=807350534901071932&permissions=8&scope=bot) - [YouTube](coming soon) - [Website](coming soon)
 `);
     message.channel.send(embed);
   }
@@ -281,14 +281,14 @@ client.on("message", async message => {
       )
    .setAuthor(client.user.username, client.user.avatarURL()).setDescription(`
    
-<a:emoji_21:872142528042917980> | Kraken Prefix (>)
+<a:🟢:> | Kraken Prefix (>)
 
       
-<a:emoji_21:872142528042917980> | Kraken [Support](https://discord.gg/MBdNZH3FsJ)
+<a:📕:> | Kraken [Support](https://discord.gg/MBdNZH3FsJ)
 
-<a:emoji_21:872142528042917980> | Krakem [Invite](https://discord.com/api/oauth2/authorize?client_id=807350534901071932&permissions=8&scope=bot)
+<a:📊:> | Krakem [Invite](https://discord.com/api/oauth2/authorize?client_id=807350534901071932&permissions=8&scope=bot)
 
-<a:emoji_21:872142528042917980> | Kraken [Website](coming soon)`);
+<a:📍:> | Kraken [Website](coming soon)`);
 
     message.channel.send(help);
   }
@@ -302,7 +302,7 @@ fs.readdir("./Destek/", (err, files) => {
   if (err) console.error(err);
   log(`${files.length} Installing support command...`);
   files.forEach(f => {
-    //== BEERCODE (https://discord.gg/DxytuacsyS) BEERCODE ==\\
+    //== BEERCODE (https://discord.gg/MBdNZH3FsJ) BEERCODE ==\\
 
     let props = require(`./Destek/${f}`);
     log(`Support Command Installed: ${props.help.name}.`);
@@ -312,7 +312,7 @@ fs.readdir("./Destek/", (err, files) => {
     });
   });
 });
-//== BEERCODE (https://discord.gg/DxytuacsyS) BEERCODE ==\\
+//== BEERCODE (https://discord.gg/MBdNZH3FsJ) BEERCODE ==\\
 
 client.load = command => {
   return new Promise((resolve, reject) => {
@@ -339,7 +339,7 @@ fs.readdir("./Ekonomi/", (err, files) => {
   if (err) console.error(err);
   log(`${files.length} Economy command Loading ...`);
   files.forEach(f => {
-    //== BEERCODE (https://discord.gg/DxytuacsyS) BEERCODE ==\\
+    //== BEERCODE (https://discord.gg/MBdNZH3FsJ) BEERCODE ==\\
 
     let props = require(`./Ekonomi/${f}`);
     log(`Economy Command Installed: ${props.help.name}.`);
@@ -365,7 +365,7 @@ client.load = command => {
     }
   });
 };
-//== BEERCODE (https://discord.gg/DxytuacsyS) BEERCODE ==\\
+//== BEERCODE (https://discord.gg/MBdNZH3FsJ) BEERCODE ==\\
 //===============================================================================\\
 //===============================================================================\\
 //===============================================================================\\
