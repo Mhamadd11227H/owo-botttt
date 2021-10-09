@@ -82,7 +82,7 @@ client.on("message", message => {
   if (message.content === ">help") {
     const embed = new Discord.MessageEmbed()
       .setThumbnail(client.user.avatarURL())
-      .setColor("c6df00")
+      .setColor("PINK")
       .setAuthor("The Prefix { > }").setDescription(`
 **<a:👤:┇User Commands**
 > bot - avatar - server
