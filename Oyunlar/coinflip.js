@@ -46,7 +46,7 @@ if(miktar > para) return message.channel.send(new Discord.MessageEmbed()
      if (awnser === "LOOSELOOSE") {
  var kaybettin = miktar*2        
         //////        
-        var text2 = `**<@${message.author.id}> CoinFlip 🤔 Choice win Or Lost**`;
+        var text2 = `**<@${message.author.id}> CoinFlip https://media.discordapp.net/attachments/887060564659036170/895020179266875392/image1.gif Choice win Or Lost**`;
           message.channel.send(text2).then(msg => {
             setTimeout(() => {
               msg.edit(`**<@${message.author.id}>spent cowoncy 💵 ${-kaybettin} and chose heads
