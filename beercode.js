@@ -244,7 +244,7 @@ client.on("message", message => {
     let bwan = new Discord.MessageEmbed()
 
       .setFooter(" 🔒 Has Been Channel Lock")
-      .setColor("#ffff00");
+      .setColor("	#ff0000");
     message.channel.send(bwan);
 
     message.channel.updateOverwrite(message.guild.id, {
@@ -263,7 +263,7 @@ client.on("message", message => {
     if (!message.channel.guild) return message.reply("SORRY IM IN SERVER");
     let bwan = new Discord.MessageEmbed()
       .setFooter(" 🔓 Has Been Channel unlock")
-      .setColor("#ffff00");
+      .setColor("#00ff00");
     message.channel.send(bwan);
 
     message.channel.updateOverwrite(message.guild.id, {
