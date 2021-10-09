@@ -30,7 +30,7 @@ let moneys = rastgeleMiktar(5000, 8000);
                    .setFooter('Kraken Daily')
                    .setThumbnail('https://media.discordapp.net/attachments/859402172373925918/870071235248263168/image0.gif')
                    .setAuthor(`Daily Crate Claimed`)
-                   .setDescription(`<✅> Here is your daily 🪙 __${moneys}__ was added to your balance`))
+                   .setDescription(`<✅> Here is your daily 💵 __${moneys}__ was added to your balance`))
 
 db.set(`worktime_${message.author.id}`, Date.now())
 
