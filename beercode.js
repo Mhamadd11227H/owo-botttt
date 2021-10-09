@@ -84,35 +84,35 @@ client.on("message", message => {
       .setThumbnail(client.user.avatarURL())
       .setColor("c6df00")
       .setAuthor("The Prefix { > }").setDescription(`
-**<a:👤:872142584875716689> ┇User Commands**
+**<a:👤:┇User Commands**
 > bot - avatar - server
 > invite - support - kick
 > unlock - lock - role 
 > clear - server 
 
 
-**<a:🔴:874713515502501960> ┇Economy Commands**
+**<a:🔴:┇Economy Commands**
 > daily(d) - cash(c) - work(w)
 > send - steal - shop(h)
 
 
-**<a:🟠:870361065786069012> ┇Game Comamnds**
+**<a:🟠:┇Game Comamnds**
 > coinflip(cf) - slots(s)
 > fish(f)
 
 
-**<a:🟡:870357283006205953> ┇Gif Commands**
+**<a:🟡:┇Gif Commands**
 > anime - animel - boy
 > girl - baby - coulpe
 > smoking - sad - neon - emoji
 
 
-**<a:🟢:870361413644873798> ┇Photo Commands**
+**<a:🟢:┇Photo Commands**
 > pgirl - pboy - pemoji
 > panime - pcoulpe
 
 
-**<a:🟣:870360971825254470> ┇Link**
+**<a:🟣:┇Link**
 [Support Bot](https://discord.gg/progresshome) - [Invite Kraken 🐙 Bot](https://discord.com/api/oauth2/authorize?client_id=807350534901071932&permissions=8&scope=bot) - [YouTube](coming soon) - [Website](coming soon)
 `);
     message.channel.send(embed);
