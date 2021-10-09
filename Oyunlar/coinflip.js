@@ -49,7 +49,7 @@ if(miktar > para) return message.channel.send(new Discord.MessageEmbed()
         var text2 = `**<@${message.author.id}> CoinFlip 🤔 Choice win Or Lost**`;
           message.channel.send(text2).then(msg => {
             setTimeout(() => {
-              msg.edit(`**<@${message.author.id}>spent cowoncy 🪙 ${-kaybettin} and chose heads
+              msg.edit(`**<@${message.author.id}>spent cowoncy 💵 ${-kaybettin} and chose heads
 The coin spins... 🔴 tail and you lost it all...(loose)**`);
             }, 3000);
           });
@@ -61,7 +61,7 @@ The coin spins... 🔴 tail and you lost it all...(loose)**`);
         var text2 = `**<@${message.author.id}> CoinFlip 🤔  Choice win Or Lost**`;
           message.channel.send(text2).then(msg => {
             setTimeout(() => {
-              msg.edit(`**<@${message.author.id}> spent cowoncy 🪙 ${kazandın} and chose heads
+              msg.edit(`**<@${message.author.id}> spent cowoncy 💵 ${kazandın} and chose heads
 The coin spins... 🟢: coinflip...(win)**`);
             }, 3000);
           });
