@@ -24,11 +24,11 @@ exports.run = async (client, message, args) => {
   if(!miktar) return message.channel.send(new Discord.MessageEmbed()
                                         .setColor("#ffff00")
                                         .setAuthor(message.author.tag, message.author.avatarURL({dynamic: true}))
-                                        .setDescription(`You Can't More Than<:emoji_61:867523675304624148> 50,000`))
+                                        .setDescription(`You Can't More Than :❌: 50,000`))
  if(miktar > 50000) return message.channel.send(new Discord.MessageEmbed()
                                         .setColor("#ffff00")
                                         .setAuthor(message.author.tag, message.author.avatarURL({dynamic: true}))
-                                        .setDescription(`You can bet up to 50000 <a:emoji_25:870145821469966406>!`))   
+                                        .setDescription(`You can bet up to 50000 :❌:!`))   
 if(miktar > para) return message.channel.send(new Discord.MessageEmbed()
 //== BEERCODE (https://discord.gg/ew3dpTu4Z5) BEERCODE ==\\
                                               .setColor("#ffff00")
