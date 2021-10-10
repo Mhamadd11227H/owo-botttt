@@ -20,7 +20,7 @@ require("./util/eventLoader.js")(client);
 
 //===============================================================================\\
 client.on("ready", async () => {
-  client.user.setActivity(`Cn help | Cn invite |Server,${client.guilds.cache.size}`, {
+  client.user.setActivity(`>help | >invite |Server,${client.guilds.cache.size}`, {
     type: "PLAYING"
   });
 });
