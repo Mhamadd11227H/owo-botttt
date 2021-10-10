@@ -18,14 +18,14 @@ if(miktar > 50000) return message.channel.send(new Discord.MessageEmbed()
 if(miktar > para) return message.channel.send(new Discord.MessageEmbed()
   .setColor("#ffff00")
   .setAuthor(message.author.tag, message.author.avatarURL({dynamic: true}))
-  .setDescription(`In your wallet to place a bet ${para ? "just " + para + ' <a:emoji_50:872142301789564969> there is!' : 'you have no money!'}`))
+  .setDescription(`In your wallet to place a bet ${para ? "just " + para + ' :🔴: there is!' : 'you have no money!'}`))
   /////////////////
   if(isNaN(miktar) || miktar < 0) return message.channel.send(new Discord.MessageEmbed()
 .setColor("RED")
 .setAuthor(message.author.tag, message.author.avatarURL({dynamic: true}))
 .setDescription(`:🔴: The amount you entered is not a valid number !?`))
  let kazandin = miktar*3   
-  let slots = [":🍒:",":🍉:",":🍌:","<:🍌:"];
+  let slots = [":🍒:",":🍉:",":🍌:","<:🍓:"];
   //
 //== BEERCODE (https://discord.gg/ew3dpTu4Z5) BEERCODE ==\\
   let result1 = Math.floor((Math.random() * slots.length));
@@ -54,7 +54,7 @@ if(miktar > para) return message.channel.send(new Discord.MessageEmbed()
             setTimeout(() => {
               msg.edit(`**
     ___SLOTS___  
-|${slots[result1]}${slots[result2]}${slots[result3]}${message.author.username}<a:emoji_10:870059089055592508> ${kazandin}+
+|${slots[result1]}${slots[result2]}${slots[result3]}${message.author.username} :🟢: ${kazandin}+
 |                  |
 |                  |**`,true);
             }, 3500);
@@ -72,7 +72,7 @@ if(miktar > para) return message.channel.send(new Discord.MessageEmbed()
             setTimeout(() => {
               msg.edit(`**
     ___SLOTS___  
-|${slots[result1]}${slots[result2]}${slots[result3]}|${message.author.username}<a:emoji_8:870059060714700870> ${miktar}-
+|${slots[result1]}${slots[result2]}${slots[result3]}|${message.author.username} :🔴: ${miktar}-
 |                  |
 |                  |**`, true);
             }, 3500);
