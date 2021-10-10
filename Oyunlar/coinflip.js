@@ -35,11 +35,11 @@ if(miktar > para) return message.channel.send(new Discord.MessageEmbed()
                                         .setAuthor(message.author.tag, message.author.avatarURL({dynamic: true}))
                                         .setDescription(`${para ? "just " + para + ' <a:emoji_25:870145821469966406> there is!' :' ❌ you have no money!'}`))
         const result = [
-          "LOOSELOOSE",
-          "WINWIN",
-          "LOSSELOSSE",
-          "WINWIN",
-          "LOOSELOOSE"
+          "LOOSE",
+          "WIN",
+          "LOOSE",
+          "WIN",
+          "LOOSE"
         ] 
 //== BEERCODE (https://discord.gg/ew3dpTu4Z5) BEERCODE ==\\
         let awnser = result[Math.floor(Math.random() * result.length)]
