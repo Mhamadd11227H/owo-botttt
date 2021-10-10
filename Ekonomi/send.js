@@ -59,7 +59,7 @@ if(miktar === 'all' || miktar === 'all') {
 .setDescription(`**__:✅: Payment Transferred!__**
 
 You Paid ${etiket}
-Add Balance <a:emoji_56: __${miktar}+__
+Para Hatna Frekrn :✅: __${miktar}+__
 Send By ${message.author.username}`))
   db.add(`para_${etiket.id}`, miktar)
   db.add(`para_${message.author.id}`, -miktar)
