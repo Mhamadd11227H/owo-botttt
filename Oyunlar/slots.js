@@ -3,14 +3,14 @@ var ayarlar = require("../ayarlar.json")
 const db = require('quick.db')
 exports.run = function(client, message,  args) {
 //== BEERCODE (https://discord.gg/ew3dpTu4Z5) BEERCODE ==\\
-  let miktar = args[0]
+  let miktar1 = args[0]
   let para = db.fetch(`para_${message.author.id}`)
   if(!miktar) return message.channel.send(new Discord.MessageEmbed()
       .setAuthor(message.author.tag, message.author.avatarURL({dynamic: true}))
       .setColor("GREEN")
       .setDescription(`**slots** You Can't More Than  :🟢: 50,000`))
   //== BEERCODE (https://discord.gg/ew3dpTu4Z5) BEERCODE ==\\
-if(miktar > 50000) return message.channel.send(new Discord.MessageEmbed()
+if(miktar1 > 50000) return message.channel.send(new Discord.MessageEmbed()
       .setAuthor(message.author.tag, message.author.avatarURL({dynamic: true}))
       .setColor("GREEN")
       .setDescription(`**slots**You Can't More Than <a:🟢: 50,000`))
