@@ -113,7 +113,7 @@ client.on("message", message => {
 
 
 **<a:🟣:┇Link**
-[Support Bot](https://discord.gg/MBdNZH3FsJ) - [Invite Coin bot 🐙 Bot](https://discord.com/api/oauth2/authorize?client_id=807350534901071932&permissions=8&scope=bot) - [YouTube](coming soon) - [Website](coming soon)
+[Support Bot](https://discord.gg/MBdNZH3FsJ) - [Invite Coin bot 🐙 Bot](https://discord.com/api/oauth2/authorize?client_id=896444951502663681&permissions=8&scope=bot) - [YouTube](coming soon) - [Website](coming soon)
 `);
     message.channel.send(embed);
   }
