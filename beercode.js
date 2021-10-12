@@ -822,13 +822,13 @@ client.on("message", async message => {
 });
 ///////
 var kiss = [
-  "https://media.discordapp.net/attachments/874241298247323648/897458575646023700/KXE5jDB-1-1.gif
-  "https://media.discordapp.net/attachments/874241298247323648/897458576010903552/uRU5MPD-1.gif
-  "https://media.discordapp.net/attachments/874241298247323648/897458623855341638/JbD1tqV.gif
-  "https://media.discordapp.net/attachments/874241298247323648/897458624216043560/IIIII.gif
-  "https://media.discordapp.net/attachments/874241298247323648/897458624916516874/IIIIIIIII-1.gif
-  "https://media.discordapp.net/attachments/874241298247323648/897458642213818398/IIIIIIII.gif
-  "https://media.discordapp.net/attachments/874241298247323648/897458642838753290/cXAoHc9.gif
+  "https://media.discordapp.net/attachments/874241298247323648/897458575646023700/KXE5jDB-1-1.gif",
+  "https://media.discordapp.net/attachments/874241298247323648/897458576010903552/uRU5MPD-1.gif",
+  "https://media.discordapp.net/attachments/874241298247323648/897458623855341638/JbD1tqV.gif",
+  "https://media.discordapp.net/attachments/874241298247323648/897458624216043560/IIIII.gif",
+  "https://media.discordapp.net/attachments/874241298247323648/897458624916516874/IIIIIIIII-1.gif",
+  "https://media.discordapp.net/attachments/874241298247323648/897458642213818398/IIIIIIII.gif",
+  "https://media.discordapp.net/attachments/874241298247323648/897458642838753290/cXAoHc9.gif",
 ];
 client.on("message", async message => {
  if (message.content === "+kiss") {
@@ -837,7 +837,7 @@ client.on("message", async message => {
    message.channel
      .send({
        embed: {
-         description: `Gig kiss`,
+         description: `Gif kiss`,
          color: `#ffff00`,
          image: {
            url: kiss[Math.floor(Math.randon() * kiss.length)]
