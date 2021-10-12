@@ -79,11 +79,11 @@ client.on("guildDelete", guild => {
 });
 //================================================================================\\
 client.on("message", message => {
-  if (message.content === ">help") {
+  if (message.content === "+help") {
     const embed = new Discord.MessageEmbed()
       .setThumbnail(client.user.avatarURL())
       .setColor("e90000")
-      .setAuthor("The Prefix { > }").setDescription(`
+      .setAuthor("The Prefix { + }").setDescription(`
 **<a:👤:┇User Commands**
 > bot - avatar - server
 > invite - support - kick
@@ -227,9 +227,9 @@ ${client.channels.cache.size}
 > <:👤:> | User
 ${client.guilds.cache.reduce((a, g) => a + g.memberCount, 0)}
 > <:👸:> | Owner Bot 
-<@701546840063082601>
+<@885212772651118592>
 > <:📍:> | Prefix Bot
->`);
++`);
     message.channel.send(embed);
   }
 });
