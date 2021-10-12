@@ -815,59 +815,36 @@ client.on("message", async message => {
           }
         }
       })
-      .catch(e => {
-        client.log.error(e);
-      });
-  }
-});
-///////
-var kiss = [
-  "https://media.discordapp.net/attachments/874241298247323648/897449696543510548/uRU5MPD-1.gif
-  "https://media.discordapp.net/attachments/874241298247323648/897449705720647700/KXE5jDB-1.gif
-  "https://media.discordapp.net/attachments/874241298247323648/897449715602444318/JbD1tqV.gif
-  "https://media.discordapp.net/attachments/874241298247323648/897449726486650880/IIIII.gif
-  "https://media.discordapp.net/attachments/874241298247323648/897449243772612698/IIIIIIIII-1.gif
-  "https://media.discordapp.net/attachments/874241298247323648/897446805778862150/IIIIIIII.gif
-  "https://media.discordapp.net/attachments/874241298247323648/897446812196143114/cXAoHc9.gif
-  ];
-
-client.on("message", async message => {
-
-  if (message.content === "+kiss") {
-
-    if (message.author.bot) return;
-
-    if (!message.channel.guild) return message.reply();
-
-    message.channel
-
-      .send({
-
-        embed: {
-
-          description: `Gif Kiss`,
-
-          color: `#ffff00`,
-
-          image: {
-
-            url: Kiss[Math.floor(Math.random() * Kiis.length)]
-
-          }
-
-        }
-
+   
+    
       })
-
-      .catch(e => {
-
-        client.log.error(e);
-
-      });
-
   }
-
 });
+
+
+
+
+
+  
+
+ 
+
+
+  
+
+
+
+     
+
+
+
+
+
+    
+
+
+
+
 //==========================================//
 var pppp = [
   "https://cdn.discordapp.com/attachments/737803691565907991/814870994530861116/360cf7ac7e7b9f1441d0948e6ab83f07.jpg",
