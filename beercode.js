@@ -840,7 +840,7 @@ client.on("message", async message => {
          description: `Gif kiss`,
          color: `#ffff00`,
          image: {
-           url: kiss[Math.floor(Math.randon() * kiss.length)]
+           url: kiss[Math.floor(Math.random() * kiss.length)]
          }
         }
       })
